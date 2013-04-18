@@ -1,0 +1,106 @@
+@font-face {
+font-family: CorruptScript;
+src: url("CorruptScript.ttf") format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+body { font-family: Calibri, sans-serif; }
+            .CSSTableGenerator {
+	margin:0px;padding:0px;
+	width:100%;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #000000;
+}.CSSTableGenerator table{
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}
+.CSSTableGenerator tr:nth-child(odd){ background-color:#e7f257; }
+.CSSTableGenerator tr:nth-child(even)    { background-color:#ed944b; }
+.CSSTableGenerator td{
+	vertical-align:middle;
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:20px;
+	font-family:CorruptScript;
+	font-weight:normal;
+	color:#000000;
+}.CSSTableGenerator tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.CSSTableGenerator tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.CSSTableGenerator tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+
+.CSSTableGenerator tr:first-child td{
+
+	background:-o-linear-gradient(bottom, #020202 5%, #020202 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #020202), color-stop(1, #020202) );
+	background:-moz-linear-gradient( center top, #020202 5%, #020202 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#020202", endColorstr="#020202");	background: -o-linear-gradient(top,#020202,020202);
+	background-color:#020202;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:14px;
+	font-family:CorruptScript;
+	font-weight:bold;
+	color:#ffffff;
+}
+.CSSTableGenerator tr:first-child:hover td{
+
+	background:-o-linear-gradient(bottom, #020202 5%, #020202 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #020202), color-stop(1, #020202) );
+	background:-moz-linear-gradient( center top, #020202 5%, #020202 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#020202", endColorstr="#020202");	background: -o-linear-gradient(top,#020202,020202);
+	background-color:#020202;
+}
+.CSSTableGenerator tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.CSSTableGenerator tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+article{
+    background: activecaption;
+    width: 200px;
+    border-radius: 10px;
+    padding: 5px 2px 2px 5px;
+    margin-bottom: 10px;
+}
+article:hover{
+    background: black;
+    color: white;
+}
+section{
+    display:none;
+    border:solid 2px #b7ddf2;
+    background:#ebf4fb;
+    margin-bottom: 10px;
+    width:350px;
+}
+section form{  
+font-size:12px;
+padding:4px 2px;
+margin:2px 0 20px 10px;
+}
+section form label{
+display:block;
+font-weight:bold;
+text-align:right;
+width:140px;
+float:left;
+}
+section form #submit{
+clear:both;
+margin-left:150px;
+width:125px;
+height:31px;
+background:#666666;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+}
